@@ -1,6 +1,6 @@
-syslog-ng
+syslogng
 
-This is the syslog-ng module.
+Install and configure syslog-ng on a Linux system.
 
 License
 -------
@@ -18,4 +18,4 @@ Andrew Leonard:
 Support
 -------
 
-Please log tickets and issues on [Github](https://github.com/anl/puppet-syslog-ng)
+Please log tickets and issues on [Github](https://github.com/anl/puppet-syslogng)

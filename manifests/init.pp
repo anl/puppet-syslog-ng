@@ -1,4 +1,4 @@
-# == Class: syslog-ng
+# == Class: syslogng
 #
 # Install and configure syslog-ng.
 #
@@ -12,7 +12,7 @@
 #
 # === Examples
 #
-# include syslog-ng
+# include syslogng
 #
 # === Authors
 #
@@ -22,7 +22,7 @@
 #
 # Copyright 2013 Andrew Leonard
 #
-class syslog-ng inherits syslog-ng::params {
+class syslogng inherits syslogng::params {
 
 
 }
