@@ -1,4 +1,5 @@
 syslogng
+-------
 
 Install and configure syslog-ng on a Linux system.
 
