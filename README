@@ -5,12 +5,17 @@ This is the syslog-ng module.
 License
 -------
 
+Apache 2.
 
 Contact
 -------
 
+Andrew Leonard:
+
+* @anl on Github
+* @da0s1a on Twitter
 
 Support
 -------
 
-Please log tickets and issues at our [Projects site](http://projects.example.com)
+Please log tickets and issues on [Github](https://github.com/anl/puppet-syslog-ng)
