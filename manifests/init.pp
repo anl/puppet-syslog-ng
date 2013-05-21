@@ -26,4 +26,9 @@ class syslogng inherits syslogng::params {
 
   package { $syslogng::params::package: ensure => present }
 
+  service { $syslogng::params::service:
+    ensure => true,
+    enable => true,
+  }
+
 }

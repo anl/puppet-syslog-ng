@@ -18,6 +18,7 @@ class syslogng::params {
   case $::operatingsystem {
     ubuntu: {
       $package = 'syslog-ng'
+      $service = 'syslog-ng'
     }
     default: {
       fail("Unsupported os: ${::operatingsystem}")
