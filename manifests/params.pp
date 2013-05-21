@@ -17,6 +17,7 @@
 class syslogng::params {
   case $::operatingsystem {
     ubuntu: {
+      $confd = '/etc/syslog-ng/conf.d'
       $package = 'syslog-ng'
       $service = 'syslog-ng'
     }

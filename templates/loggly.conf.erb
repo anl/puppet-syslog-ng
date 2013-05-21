@@ -1,0 +1,12 @@
+source s_all { 
+  internal(); 
+  unix-stream("/dev/log"); 
+}; 
+   
+destination d_loggly { 
+  tcp("logs.loggly.com" port(<%= port %>)); 
+}; 
+
+log { 
+  source(s_all); destination(d_loggly); 
+};
