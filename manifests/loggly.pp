@@ -25,6 +25,9 @@
 #
 class syslogng::loggly($port) {
 
+  # Ensure $port is numeric:
+  validate_re($port, '^[0-9]+$')
+
   file { "${syslogng::params::confd}/loggly.conf":
     owner   => 'root',
     group   => 'root',
