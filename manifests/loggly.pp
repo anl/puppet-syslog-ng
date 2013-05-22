@@ -9,11 +9,12 @@
 # Document parameters here.
 #
 # [*port*]
-#   Port to connect to logs.loggly.com on.
+#   Port to connect to logs.loggly.com on; must be passed as a *string* (not
+#   integer) for validation to pass.
 #
 # === Examples
 #
-#
+#  class { syslogng::loggly: port => '12345' }
 #
 # === Authors
 #
