@@ -1,3 +1,5 @@
 *~
 *#
 .ruby-version
+.vagrant
+Gemfile.lock
